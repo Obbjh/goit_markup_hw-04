@@ -129,19 +129,21 @@ body {
     height: 16px;
 }
 
-.contacts-link::before {
+/* .contacts-link::before {
     display: inline-flex;
     content: "";
     background-color: var(--primary-white-color);
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 10px;
+} */
+
+.contact-email {
+    fill: var(--background-color);
 }
 
-.icon-email::before {
-    width: 16px;
-    height: 12px;
-    background-image: url(../images/icon-email.svg);
+.contact-phone {
+    fill: var(--background-color);
 }
 
 .icon-phone::before {
@@ -284,7 +286,7 @@ button {
     margin-right: 0px;
 }
 
-.features-item::before {
+/* .features-item::before {
     display: block;
     content: "";
     height: 120px;
@@ -292,9 +294,15 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 30px;
+} */
+
+.features-icons {
+    width: 270px;
+    height: 120px;
+    fill: currentColor;
 }
 
-.icon-satellite::before {
+/* .icon-satellite::before {
     background-image: url(../images/icon-satellite.svg);
 }
 
@@ -308,7 +316,7 @@ button {
 
 .icon-rocketman::before {
     background-image: url(../images/icon-rocketman.svg)
-}
+} */
 
 .title {
     margin-top: 0;
@@ -401,7 +409,7 @@ img {
     padding-right: 25px;
 }
 
-.user-url-link {
+/* .user-url-link {
     display: inline-block;
     height: 44px;
     width: 44px;
@@ -432,7 +440,7 @@ img {
 
 .icon-linkedin { 
     background-image: url(../images/user-url-link4.svg);
-}
+} */
 
 .user {
     margin-top: 0px;

@@ -126,17 +126,8 @@ body {
 }
 
 .container-item {
-    height: 16px;
+    align-items: center;
 }
-
-/* .contacts-link::before {
-    display: inline-flex;
-    content: "";
-    background-color: var(--primary-white-color);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-} */
 
 .contact-email {
     fill: var(--background-color);

@@ -130,18 +130,28 @@ body {
 }
 
 .contact-email {
-    fill: var(--background-color);
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-text-color)
+}
+
+.contact-email:hover {
+    fill: var(--accent-color);
 }
 
 .contact-phone {
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
     fill: var(--background-color);
 }
 
-.icon-phone::before {
+/* .icon-phone::before {
     width: 10px;
     height: 16px;
     background-image: url(../images/icon-phone.svg)
-} 
+}  */
 
 .nav-link {
     display: block;
@@ -406,6 +416,28 @@ img {
     padding-right: 25px;
 }
 
+.list-pading {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.links-item {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary-text-color);
+}
+
 /* .user-url-link {
     display: inline-block;
     height: 44px;
@@ -484,13 +516,21 @@ img {
     flex-wrap: wrap;
 }
 
-.clients-item {
+.clients-li {
     width: 170px;
     height: 92px;
-    padding: 16px 32px 16px;
-    border: 1px solid var(--border-box-client);
-    border-radius: 4px;
-    margin-right: 30px;
+    border-radius: 1px solid var(--background-color);
+}
+
+.clients-links {
+    width: 170px;
+    height: 92px;
+    border-radius: 1px solid var(--border-box-client);
+}
+
+.clients-item {
+    width: 106px;
+    height: 60px;
 }
 
 .clients-item:last-child {
@@ -528,8 +568,9 @@ footer {
 }
 
 .footer-url-title {
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
-    display: flex;
 }
 
 .container > .footer-url {

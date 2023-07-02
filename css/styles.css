@@ -298,9 +298,13 @@ button {
     margin-right: 0px;
 }
 
-.features-icons {
+.features-box-icon {
     width: 270px;
     height: 120px;
+}
+
+.features-icons {
+    
     fill: currentColor;
 }
 
